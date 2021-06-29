@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/chooseyourcontext/static/css/main.c1c3f4c2.chunk.css",
-    "main.js": "/chooseyourcontext/static/js/main.417093cc.chunk.js",
-    "main.js.map": "/chooseyourcontext/static/js/main.417093cc.chunk.js.map",
+    "main.css": "/chooseyourcontext/static/css/main.6a41caad.chunk.css",
+    "main.js": "/chooseyourcontext/static/js/main.4aa604f8.chunk.js",
+    "main.js.map": "/chooseyourcontext/static/js/main.4aa604f8.chunk.js.map",
     "runtime-main.js": "/chooseyourcontext/static/js/runtime-main.d495a760.js",
     "runtime-main.js.map": "/chooseyourcontext/static/js/runtime-main.d495a760.js.map",
     "static/js/2.42abf2c8.chunk.js": "/chooseyourcontext/static/js/2.42abf2c8.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3735837b.chunk.js": "/chooseyourcontext/static/js/3.3735837b.chunk.js",
     "static/js/3.3735837b.chunk.js.map": "/chooseyourcontext/static/js/3.3735837b.chunk.js.map",
     "index.html": "/chooseyourcontext/index.html",
-    "static/css/main.c1c3f4c2.chunk.css.map": "/chooseyourcontext/static/css/main.c1c3f4c2.chunk.css.map",
+    "static/css/main.6a41caad.chunk.css.map": "/chooseyourcontext/static/css/main.6a41caad.chunk.css.map",
     "static/js/2.42abf2c8.chunk.js.LICENSE.txt": "/chooseyourcontext/static/js/2.42abf2c8.chunk.js.LICENSE.txt",
-    "static/media/logo.147751a4.svg": "/chooseyourcontext/static/media/logo.147751a4.svg"
+    "static/media/logo.9b36e14a.svg": "/chooseyourcontext/static/media/logo.9b36e14a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d495a760.js",
     "static/js/2.42abf2c8.chunk.js",
-    "static/css/main.c1c3f4c2.chunk.css",
-    "static/js/main.417093cc.chunk.js"
+    "static/css/main.6a41caad.chunk.css",
+    "static/js/main.4aa604f8.chunk.js"
   ]
 }
