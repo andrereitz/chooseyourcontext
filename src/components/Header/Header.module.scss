@@ -1,0 +1,20 @@
+.Default {
+    width: 100%;
+    text-align: center;
+    background: url('/assets/png/header-bg.png'), radial-gradient(60.12% 60.12% at 50% 42.52%, #2C2A2A 13.02%, #1B1919 100%), #2D2D2D;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid #00D8FF;
+
+    img{
+        padding: 40px 0;
+    }
+
+    @media screen and (max-width: 768px){
+        padding: 0;
+
+        img {
+            width: 100px;
+            padding: 20px 0 30px 0;
+        }
+    }
+}

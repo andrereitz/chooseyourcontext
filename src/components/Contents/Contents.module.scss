@@ -1,0 +1,96 @@
+.Contents {
+    display: flex;
+
+    .Column{
+        flex: 1 1 50%;
+        padding: 0 15px 0 0;
+        
+        h2 {
+            margin: 0 0 10px 0;
+            font-weight: 400;
+            font-size: 34px;
+            line-height: 38px;
+        }
+        h3 {
+            margin: 0 0 10px 0;
+        }
+        > p {
+            margin: 15px 0;
+            line-height: 26px;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .CodeSection {
+        padding: 0 0 0 15px;
+        width: 50%;
+
+        div {
+            width: 100%;
+            display: flex;
+            margin-bottom: 15px;
+
+            h3 {
+                flex: 1 1 100%;
+                font-size: 18px;
+                margin: 0;
+            }
+            span {
+                flex: 0 0 160px;
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                
+                i {
+                    margin-right: 3px;
+                    font-size: 14px;
+                }
+                a {
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #303030;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        flex-flow: row wrap;
+        padding: 40px 20px;
+        
+        .Column {
+            flex: 1 1 100%;
+            flex-flow: row wrap;
+        }
+        .CodeSection {
+            padding: 0;
+
+            div {
+                flex-flow: row wrap;
+                
+                h3 {
+                    flex: 1 1 100%;
+                }
+                span {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .Column {
+            h2 {
+                font-size: 26px;
+                line-height: 30px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+}

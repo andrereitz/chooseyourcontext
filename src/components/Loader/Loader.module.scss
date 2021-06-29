@@ -1,0 +1,45 @@
+.Default {
+    flex: 0 0 30px !important;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    position: relative;
+
+    &:before{
+        content: '';
+        border: 2px solid #707070;
+        border-left-color: transparent;
+        border-radius: 50%;
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation-name: rotate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .Default {
+
+    }
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
